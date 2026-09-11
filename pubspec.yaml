@@ -2,7 +2,7 @@ name: helm_core
 description: A starting point for Dart libraries or applications.
 version: 0.2.0
 # resolution: workspace
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/Daskerwow/helm_core.git
 
 environment:
   sdk: ^3.13.2
