@@ -180,7 +180,7 @@ final class const UpdateAsyncUse<S>(final Future<S> Function(S current) update)
   ) async {
     final result = await update(reader.current);
 
-    if (cancel.isCancelled) result;
+    if (cancel.isCancelled) return;
 
     writer.commit(result);
   }
